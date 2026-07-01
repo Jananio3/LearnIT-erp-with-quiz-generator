@@ -1,0 +1,30 @@
+.note-page {
+    height: 100vh;
+    background-color: #AEE8F8;
+  }
+  
+  .note-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .note-card {
+    border: none;
+    border-radius: 1rem;
+  }
+  
+  .dragdrop-area {
+    border: 2px dashed #ccc;
+    border-radius: 0.75rem;
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dragdrop-area.active {
+    background-color: #e6f7ff;
+    border-color: #007bff;
+  }
+  
