@@ -1,0 +1,8 @@
+
+.home-cover img{
+    width: 100rem;
+    height: 50rem;
+    background-size: contain;
+    opacity: 0.3;
+    z-index: -1;
+}

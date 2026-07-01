@@ -1,0 +1,78 @@
+/* Uploader Page Styling */
+.uploader-page {
+    background-color: #AEE8F8;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .uploader-container {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .uploader-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .uploader-card .card-body {
+    padding: 2rem;
+  }
+  
+  .uploader-card h1 {
+    color: #343a40;
+  }
+  
+  .dragdrop-area {
+    border: 2px dashed #2575fc;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .dragdrop-area.active {
+    background-color: #e9f5ff;
+    border-color: #1a5bbf;
+  }
+  
+  .dragdrop-area p {
+    color: #6c757d;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .btn-primary {
+    background-color: #2575fc;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a5bbf;
+  }
+  
+  .btn-primary:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

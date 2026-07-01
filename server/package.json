@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.50",
+    "@langchain/google-genai": "^0.1.12",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.157",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.9",
+    "openai": "^4.83.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "server": "file:"
+  }
+}

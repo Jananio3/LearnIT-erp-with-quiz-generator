@@ -1,0 +1,89 @@
+/* Register Page Styling */
+.register-page {
+    background-color: #AEE8F8;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .logo-cover img{
+    margin-left: -2rem;
+  }
+  .register-container {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .register-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .register-card .card-body {
+    padding: 2rem;
+  }
+  
+  .register-card h2 {
+    color: #343a40;
+  }
+  
+  .register-card .nav-tabs {
+    border: none;
+    margin-bottom: 1.5rem;
+  }
+  
+  .register-card .nav-link {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #6c757d;
+    transition: all 0.3s ease;
+  }
+  
+  .register-card .nav-link.active {
+    background-color: #475cd3;
+    color: #fff;
+  }
+  
+
+  .register-card .form-control {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .register-card .form-control:focus {
+    border-color: #475cd3;
+    box-shadow: none;
+  }
+  
+  .register-card .btn-primary {
+    background-color: #475cd3;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-card .btn-primary:hover {
+    background-color: #1a5bbf;
+  }
+  
+  .register-card .alert {
+    border-radius: 8px;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
